@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Scribd JPG Extractor",
+  "version": "1.0",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "*://*/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_title": "Scribd JPG Downloader",
+    "default_popup": "popup.html"
+  }
+}

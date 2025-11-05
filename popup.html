@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Scribd JPG Downloader</title>
+
+  <style>
+    .thumb {
+      width: 80px;
+      height: auto;
+      border: 1px solid #ccc;
+      margin: 5px;
+    }
+    .img-box {
+      display: inline-block;
+      text-align: center;
+      margin: 5px;
+    }
+    .img-link {
+      font-size: 10px;
+      word-break: break-all;
+      width: 80px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+<h3>Scribd JPG Links</h3>
+
+<button id="downloadAll" style="
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 4px;">
+  Download All (ZIP)
+</button>
+
+<div id="gallery"></div>
+
+<script src="jszip.min.js"></script>
+<script src="popup.js"></script>
+
+</body>
+</html>
